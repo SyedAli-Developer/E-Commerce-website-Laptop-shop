@@ -38,6 +38,10 @@ body>.about{
 }
 @media screen and (max-width: 500px)
 {
+nav{
+    position: sticky;
+    top: 0px;
+}
 body>.about{
     margin: 40px auto;
     
