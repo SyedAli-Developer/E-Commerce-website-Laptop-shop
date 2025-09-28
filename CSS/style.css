@@ -31,7 +31,8 @@ nav{
     color: white;
     height: 8vh;
     align-content: center;
-    
+    position:sticky;
+    top: 0px;
 }
 
 nav>ul{

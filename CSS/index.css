@@ -1,7 +1,9 @@
 /* In body background color
 body background color #121212
 boes background color #1f1f1f
-button ::backdrop #2196f3
+button ::background color #2196f3
+headings color #e0e0e0
+boxes paragraph color #b0b0b0
 price color #4caf50 */
 
 
@@ -11,4 +13,62 @@ price color #4caf50 */
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+
+}
+
+.main-content {
+    background-color: #121212;
+    padding: 20px 30px 50px 30px;
+}
+
+.main-content>h2 {
+    text-align: center;
+    color: #e0e0e0;
+    margin: 30px;
+}
+
+.box-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.products {
+    
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+
+}
+.products>img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.products h3{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    color: #fff;
+}
+.products .description{
+    color: #b0b0b0;
+    margin-bottom: 0.5rem;
+}
+.price{
+    color: #4caf50;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.products a{
+    background-color: #2196f3;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
 }
