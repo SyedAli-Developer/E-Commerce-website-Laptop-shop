@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* background color 
+nav top and footer background color #1f1f1f
+nav background #252525
+nav hover text color #4caf50 */
+
+
+/* Nav bar start >>>> */
+header{
+text-align: center;
+background-color: #1f1f1f;
+color: white;
+height: 15vh;
+align-content: center;
+}
+header h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+header p{
+    font-size: 1rem;
+}
+nav{
+    background-color: #252525 ;
+    color: white;
+    height: 8vh;
+    align-content: center;
+    
+}
+
+nav>ul{
+    display: flex;
+    
+    justify-content: center;
+    gap: 25px;
+}
+.nav-items{
+list-style: none;
+font-size: 1.2rem;
+
+}
+.nav-links{
+    color: white;
+    /* border-bottom: 2px solid white; */
+    text-decoration: none;
+    text-align: center;
+}
+.nav-links:hover{
+    color:#4caf50;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+/* footer start from here >>>>>>>> */
+footer{
+    height: 8vh;
+    background-color: #1f1f1f ;
+    color: white;
+    text-align: center;
+    align-content: center;
+}

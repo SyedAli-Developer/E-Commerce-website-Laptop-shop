@@ -1,0 +1,14 @@
+/* In body background color
+body background color #121212
+boes background color #1f1f1f
+button ::backdrop #2196f3
+price color #4caf50 */
+
+
+/* main content start from here>>>>>>>>>>       */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
