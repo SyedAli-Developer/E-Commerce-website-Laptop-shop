@@ -72,3 +72,12 @@ price color #4caf50 */
     text-decoration: none;
     border-radius: 5px;
 }
+#goto{
+    /* position: fixed; */
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: #37883a;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    color: white;
+}
