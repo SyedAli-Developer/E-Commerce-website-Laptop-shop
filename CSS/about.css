@@ -1,0 +1,44 @@
+/* In body background color
+body background color #121212
+boes background color #1f1f1f
+button ::background color #2196f3
+headings color #e0e0e0
+boxes paragraph color #b0b0b0
+price color #4caf50 */
+
+
+/* main content start from here>>>>>>>>>>       */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+body{
+    background-color: #121212;
+
+}
+body>.about{
+    margin: 50px auto;
+    
+    width: 600px;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.about>h2{
+    color: white;
+    margin-bottom: 15px;
+}
+.about>p{
+    color: #b0b0b0;
+}
+@media screen and (max-width: 700px)
+{
+body>.about{
+    width: 400px;
+}
+}

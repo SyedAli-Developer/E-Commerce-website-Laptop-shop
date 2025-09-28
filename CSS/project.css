@@ -21,11 +21,7 @@ price color #4caf50 */
     padding: 20px 30px 50px 30px;
 }
 
-.main-content>h2 {
-    text-align: center;
-    color: #e0e0e0;
-    margin: 30px;
-}
+
 
 .box-row {
     display: grid;
@@ -39,7 +35,7 @@ price color #4caf50 */
     
     background-color: #1f1f1f;
     border-radius: 8px;
-    box-shadow: 0 2px 5px #00000080;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     text-align: center;
     padding: 1rem 1rem 2rem 1rem;
